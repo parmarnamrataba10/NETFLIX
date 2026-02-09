@@ -1,0 +1,283 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  color: white;
+  background-color: black;
+   font-family: "Roboto Condensed", sans-serif;
+}
+
+.logo{
+    height: 50px;
+    width: 10rem;
+    margin-top: 28px;
+    margin-left: 19rem;
+}
+nav{
+  background-image: url(./asset/IMG1.jpg);
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex: 1;
+}
+.nav-left{
+    display: flex;
+    width: 115rem;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute; 
+    flex: 1; 
+}
+.sel{
+  display: flex;
+   background-color: #111111;
+    color: white;
+    height: 4vh;
+    width: 8vw;
+    border-color: beige;
+    border-radius: 5px;
+    margin-top: 28px;
+     margin-left: 55rem; 
+}
+.btn{
+    background-color: RED;
+    color: white;
+    height: 4vh;
+    width: 3vw;
+    border-radius: 5px;
+    margin-top: 28px;
+      margin-right: 10rem;   
+}
+.title{
+    text-align: center;
+    font-size: 5rem;
+    font-weight: 800;
+    
+}
+.subtitle{
+  text-align: center;
+    font-size: 1.4rem;
+    margin: 15px 0;
+
+}
+p{
+  justify-content: center;
+}
+.sub2{
+    text-align: center;
+    font-size: 1rem;
+    /* gap: 4rem; */
+    margin-bottom: 20px;
+}
+.fulltext{
+   display: flex; 
+  justify-content: center;
+  align-items: center; 
+  height: 100vh;
+  max-width: 650px;
+  margin-left: 40rem;
+
+}
+.email{
+  
+   padding: 15px;
+  width: 350px;
+  border: none;
+  outline: none;
+  background-color: #0F0F0F; 
+
+}
+.red-btn{
+    background-color: red;
+  color: white;
+  border: none;
+  padding: 15px 25px;
+  font-size: 1rem; 
+
+}
+.movies {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 4rem;
+  gap: 1rem;
+}
+.movie-title {
+  display: flex;
+  gap: 10rem;
+  margin-left:15rem;
+  font-size: 30px;
+}
+.movie-card {
+  display: flex;
+  gap: 5rem;
+  margin-left: 15rem;
+}
+.poster{
+  border-radius: 15px;
+}
+.rk{
+   margin-top: 180px;
+    margin-left: 2px;
+    z-index: 1;
+    position: absolute;
+    font-size: 6rem;
+    font-weight: 900;
+    color: #000;
+    text-shadow: 2px 2px 5px white; 
+}
+
+.movie-poster{
+   display: flex;
+  gap:7rem;
+ /* margin-left: 25rem;  */
+
+}
+.poster:hover{
+  transform: scale(1.1);
+  transition-property: all 1s;
+}
+ .container {
+    padding: 50px 10%;
+    width: 100%;
+}
+ .heading {
+    font-size: 30px;
+    margin-bottom: 20px;
+} 
+.more {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+
+.more-detail {
+    background: linear-gradient(149deg, #192247 0%, #210e17 99%);
+    padding: 25px;
+    border-radius: 16px;
+    position: relative;
+    /* margin-left: 19rem; */
+    /* min-height: 250px; */
+    height: 35vh;
+   width: 16vw;
+}
+
+.box{
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+
+.sub-box {
+    color: #ccc;
+}
+
+
+.edt {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    font-size: 3rem;
+}
+.tag{
+    display: flex;
+    flex-direction: column;
+    padding-top: 5rem;
+    gap: 25rem;
+    justify-content: center;
+    margin-left: 15rem;
+
+}
+.add{
+  display: flex;
+  justify-content: space-between;
+}
+.que{
+    height: 10vh;
+    gap: 1rem;
+    width: 80vw;
+    padding: 25px;
+    margin-top: 8px;
+    font-size: 22px;
+    background-color:#414141c3;
+    margin-left: 15rem;
+}
+
+
+.mail-2{
+
+    height: 3rem;
+     padding: 15px;
+  width: 500px;
+  background-color: #0F0F0F;
+  margin-left: 40rem;
+}
+.btn2{
+  background-color: red;
+  color: white;
+  border: none;
+  padding: 15px 25px;
+  font-size: 1rem;
+
+}
+
+.watch-2{
+    font-size: 20px;
+    gap: 4rem;
+    display: flex;
+    justify-content: center;
+    padding-top:7rem;
+
+}
+footer{
+    display: flex;
+    flex-direction: column;
+    padding-left: 10rem;
+    margin-top: 5rem;
+    color: whitesmoke;
+    font-size: 15px;
+}
+.list{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding-right: 20rem;
+    margin-top: 3rem;
+}
+li{
+    list-style: none;
+    padding: 5px;
+}
+a{
+      color: beige; 
+}
+.english{
+    margin-top: 4rem;
+    padding-bottom: 10rem;
+}
+.last{
+    gap: 4rem;
+    padding-top: 3rem;
+    font-size: 15px;
+}
+.last-2{
+    gap: 4rem;
+    padding-top: 3rem;
+    font-size: 14px;
+    color: gray;
+}
+.blue{
+    color: #448EF4;
+}
+.sel2{
+  display: flex;
+   background-color: #111111;
+    color: white;
+    height: 4vh;
+    width: 8vw;
+    border-color: beige;
+    border-radius: 5px;
+    margin-top: 28px;
+}
