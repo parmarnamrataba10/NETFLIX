@@ -39,16 +39,17 @@ nav{
     border-color: beige;
     border-radius: 5px;
     margin-top: 28px;
-     margin-left: 55rem; 
+     margin-left:65rem; 
 }
 .btn{
     background-color: RED;
     color: white;
     height: 4vh;
     width: 3vw;
+    border: none;
     border-radius: 5px;
     margin-top: 28px;
-      margin-right: 10rem;   
+      margin-right: 2rem;   
 }
 .title{
     text-align: center;
@@ -97,6 +98,7 @@ p{
   font-size: 1rem; 
 
 }
+
 .movies {
   display: flex;
   flex-direction: column;

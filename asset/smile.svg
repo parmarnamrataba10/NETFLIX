@@ -1,0 +1,58 @@
+<svg width="72" height="72" viewBox="0 0 72 72" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Gradients for back square -->
+    <radialGradient id="backGradient" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(38 17) rotate(135) scale(32)">
+      <stop offset="0" stop-color="#FFDCCC"/>
+      <stop offset="0.333" stop-color="#FFBDC0"/>
+      <stop offset="0.666" stop-color="#F89DC6"/>
+      <stop offset="1" stop-color="#E4A1FA"/>
+    </radialGradient>
+    
+    <!-- Gradients for front square -->
+    <radialGradient id="frontGradient" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(56 35) rotate(135) scale(42)">
+      <stop offset="0" stop-color="#EF7744"/>
+      <stop offset="0.333" stop-color="#E50914"/>
+      <stop offset="0.666" stop-color="#A70D53"/>
+      <stop offset="1" stop-color="#792A95"/>
+    </radialGradient>
+    
+    <!-- Gradient for face features -->
+    <radialGradient id="faceGradient" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(60 15) rotate(135) scale(70)">
+      <stop offset="0" stop-color="#99421D"/>
+      <stop offset="0.333" stop-color="#99161D"/>
+      <stop offset="0.666" stop-color="#7D1845"/>
+      <stop offset="1" stop-color="#59216E"/>
+    </radialGradient>
+    
+    <radialGradient id="faceLightGradient" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(60 15) rotate(135) scale(70)">
+      <stop offset="0" stop-color="#FFDCCC"/>
+      <stop offset="0.333" stop-color="#FDF6F6"/>
+      <stop offset="0.666" stop-color="#FADCE9"/>
+      <stop offset="1" stop-color="#E4A1FA"/>
+    </radialGradient>
+  </defs>
+  
+  <!-- Back square (pink) -->
+  <rect x="9.6" y="9.6" width="34.8" height="34.8" rx="4.8" fill="url(#backGradient)"/>
+  
+  <!-- Back face - left eye -->
+  <circle cx="16.5" cy="21.9" r="2.1" fill="url(#faceGradient)"/>
+  
+  <!-- Back face - right eye -->
+  <circle cx="37.5" cy="21.9" r="2.1" fill="url(#faceGradient)"/>
+  
+  <!-- Back face - smile -->
+  <path d="M22.75 30.98C23.82 31.63 26.77 32.77 30.64 32.77C34.51 32.77 37.45 31.63 38.52 30.98C38.95 30.75 39.09 30.19 38.84 29.77C38.58 29.34 38.03 29.20 37.60 29.45C36.82 29.92 34.19 30.97 30.64 30.97C27.08 30.97 24.46 29.92 23.67 29.45C23.24 29.20 22.69 29.34 22.44 29.77C22.18 30.19 22.32 30.75 22.75 30.98Z" fill="url(#faceGradient)"/>
+  
+  <!-- Front square (red/magenta) -->
+  <rect x="27.6" y="27.6" width="34.8" height="34.8" rx="4.8" fill="url(#frontGradient)"/>
+  
+  <!-- Front face - left eye -->
+  <circle cx="34.5" cy="39.9" r="2.1" fill="url(#faceLightGradient)"/>
+  
+  <!-- Front face - right eye -->
+  <circle cx="55.5" cy="39.9" r="2.1" fill="url(#faceLightGradient)"/>
+  
+  <!-- Front face - smile -->
+  <path d="M40.90 49.15C41.98 49.79 44.92 50.93 48.79 50.93C52.66 50.93 55.60 49.79 56.67 49.15C57.10 48.90 57.24 48.35 56.99 47.92C56.73 47.49 56.18 47.35 55.75 47.60C54.97 48.07 52.34 49.13 48.79 49.13C45.23 49.13 42.61 48.07 41.82 47.60C41.39 47.35 40.84 47.49 40.59 47.92C40.33 48.35 40.48 48.90 40.90 49.15Z" fill="url(#faceLightGradient)"/>
+</svg>
